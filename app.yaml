@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: deploynew.app
+
+libraries:
+- name: numpy
+  version: "1.6.1"
+
+
